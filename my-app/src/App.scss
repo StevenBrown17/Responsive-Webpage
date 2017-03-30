@@ -1,0 +1,156 @@
+.App {
+  
+}
+
+.App-header {
+  text-align: center;
+  display:flex;
+  justify-content: space-between;
+  position:inherit;
+  background-color: rgb(38,38,38);
+  //height: 5em;
+  padding: 20px;
+  color: white;
+}
+
+
+// ul{
+
+//     margin:0;
+//     padding:2em;
+//     list-style:none;
+//     display:none;
+//     position:absolute;
+//     background: #00aa33;
+//     z-index:10;
+//     right:0;
+//     min-width:50vw;
+
+//     @media screen and (min-width:450px){
+//       display:block;
+//       position:inherit;
+//       background:none;
+//       z-index:0;
+//       right:auto;
+//       min-width:none;
+//     }
+
+//     li{
+//       padding:0.5em;
+//       text-align:left;
+//       @media screen and (min-width:450px){
+//         display:inline-block;
+//         color:white;
+//       }
+//     }//end li
+//   }//end ul
+
+.nav-menu{
+  padding: 20px;
+}
+
+.nav-menu ul{
+  margin:0;
+  padding:0;
+}
+
+.nav-menu ul li{
+  list-style: none;
+  float:left;
+}
+
+.nav-menu ul li a:link,
+.nav-menu ul li a:visited{
+  display:block;
+  font-size: 90%;
+  padding: 10px 25px 10px 0;
+  text-decoration: none;
+  font-weight: bold;
+  color:white;
+}
+
+.trigger{
+  display:none;
+}
+
+.nav-toggle:hover{
+    .nav-menu{
+      display:block;
+    }
+}
+
+
+@media screen and (max-width: 730px){
+
+  .trigger{
+    color:white;
+    float:left;
+    display:block;
+  }
+
+  .nav-menu{
+    display: none;
+  }
+
+  .nav-toggle:hover{
+    .nav-menu{
+      display:block;
+    }
+}
+
+
+  .nav-menu ul li{
+    float:none;
+    border-bottom: 2px solid slategrey;
+  }
+
+  .nav-menu ul li:last-child{
+    border-bottom: none;
+  }
+
+}
+
+
+.App-intro {
+  font-size: large;
+}
+
+h2{
+  text-align: center;
+}
+/////////////////
+
+
+.footer,
+.footer a:visited, 
+.footer a:link,
+.body:after{
+  
+  display: flex;
+  background:#222;
+  color:white;
+  padding:0 2em;
+  width:100%;
+}
+
+@media screen and (max-width: 400px){
+  .footer,
+  .footer a:visited, 
+  .footer a:link{
+    .constrain{
+    text-align: center;
+    display:block;
+    justify-content:center;
+  }
+  }
+}
+
+.constrain{
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+  }
+
+
+
+
