@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         
         <div className="App-header">
-          <img src={slinky} className="slinky" alt="slinky" height="100" />
+          <img src={slinky} className="slinky" height="100" />
 
 
 

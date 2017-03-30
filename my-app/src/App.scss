@@ -24,12 +24,14 @@
 }
 
 .pictures{
-  margin:50px .5em 0;
+  margin: 0 10px 10px;
   display: inline-block;
   width:30%;
-
+  vertical-align: middle;
 }
-
+.main{
+  text-align: center;
+}
 
 
 
@@ -69,7 +71,7 @@
 }
 
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 740px){
 
   .pictures{
     margin:.5em auto;
